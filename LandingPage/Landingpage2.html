@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManaliStay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background-image: url('./p12.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5em;
+            margin-bottom: 0.5em;
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+            font-family: "Satisfy", cursive;
+        }
+
+        .hero-section p {
+            font-size: 1.3em;
+            margin-bottom: 1em;
+        }
+
+        .cta-button {
+            background-color: #ff5a5a;
+            color: #fff;
+            padding: 0.8em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #ae1818;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 4em 2em;
+            text-align: center;
+            background-color: #f3f3f3;
+        }
+
+        .about-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .about-section p {
+            font-size: 1.1em;
+            color: #3e3e3e;
+            line-height: 1.8;
+            margin-bottom: 2em;
+        }
+
+        /* Gallery Section */
+        .gallery-section {
+            padding: 4em 2em;
+            text-align: center;
+        }
+
+        .gallery-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 1.5em;
+            flex-wrap: wrap;
+            margin-top: 2em;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer Section */
+        footer {
+            padding: 1em;
+            text-align: center;
+            background-color: #6c6c6c;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="hero-section">
+        <h1>Manali . Your Perfect Escape</h1>
+        <p>Browse Manali’s Best Hotels – From Cozy Rooms to Premium Services.</p>
+        <a href="#explore" class="cta-button">Book Now</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="explore" class="about-section">
+        <h2>Best Deals, Best Stays – Your Manali Adventure Starts Here</h2>
+        <p>Book with us for the best hotels in Manali—affordable rates, stunning views, and exceptional comfort, all backed by real guest reviews.</p>
+        <ul>
+            <li><strong>Private Cottages & Suites</strong>  – Exclusive rooms with stunning mountain views, offering privacy and comfort.</li>
+            <li><strong>Spa and Wellness Facilities</strong> – Relax with rejuvenating spa treatments, sauna, and wellness programs for ultimate relaxation.</li>
+            <li><strong>Gourmet Dining</strong> – Fine dining experiences with a variety of cuisines, including local Himachali delicacies.</li>
+            <li><strong>Personalized Concierge Service</strong> – Tailored services like private tours, transportation, and special requests to ensure a seamless stay.</li>
+        </ul>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <h2>Explore More Options</h2>
+        <div class="gallery">
+            <img src="./p13.png" alt="Images">
+            <img src="./p14.png" alt="Images">
+            <img src="./p15.png" alt="Images">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Discover the best hotels of Manali.</p>
+    </footer>
+</body>
+
+</html>
